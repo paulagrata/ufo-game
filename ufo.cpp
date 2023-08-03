@@ -5,7 +5,8 @@ int main() {
   greet();
 
   std::string codeword = "bumfuzzle";
-  std::string answer = std::string(codeword.length(), '_'); // will create the string answer based on # of characters in codeword
+  // will create the string answer based on # of characters in codeword
+  std::string answer = std::string(codeword.length(), '_'); 
   int misses = 0;
   std::vector<char> incorrect;
   bool guess = false;
