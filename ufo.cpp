@@ -5,7 +5,7 @@ int main() {
   greet();
 
   std::string codeword = "bumfuzzle";
-  std::string answer = "__________";
+  std::string answer = "_________";
   int misses = 0;
   std::vector<char> incorrect;
   bool guess = false;
