@@ -26,7 +26,7 @@ int main() {
     }
 
     if (guess) {
-      std::cout << "\heckyes!\n";
+      std::cout << "\nheckyes!\n";
     } else {
       std::cout << "\nbetter luck next time! the tractor beam pulls the person in further. muahahahaha.\n";
       incorrect.push_back(letter);
