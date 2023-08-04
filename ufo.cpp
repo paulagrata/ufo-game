@@ -4,7 +4,8 @@
 int main() {
   greet();
 
-  std::string codeword = "bumfuzzle";
+  // will select codeword from random array of words
+  std::string codeword = getWord();
   // will create the string answer based on # of characters in codeword
   std::string answer = std::string(codeword.length(), '_'); 
   int misses = 0;
