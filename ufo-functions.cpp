@@ -8,6 +8,14 @@ void greet() {
   std::cout << "instructions: save your home skillet from an alien" << "\n" << "abduction by guessing the letters in the secret word.\n\n";
 }
 
+std::string getWord() {
+   std::vector<std::string> codewords = {"bumfuzzle", "zorblax", "yuzzwoggle", "zappitron", "xyloflux"};
+   std::srand(std::time(0));
+   int randomIndex = std::rand() % codewords.size();
+   std::string codeword = codewords[randomIndex];
+   return codeword;
+}
+
 void display_status(std::vector<char> incorrect, std::string answer) {
   std::cout << "\nincorrect attempts:\n";
   for (int i = 0; i < incorrect.size(); i++) {
