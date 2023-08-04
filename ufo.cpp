@@ -4,7 +4,7 @@
 int main() {
   greet();
 
-  // will select codeword from random array of words
+  // will select codeword from random vector of words
   std::string codeword = getWord();
   // will create the string answer based on # of characters in codeword
   std::string answer = std::string(codeword.length(), '_'); 
